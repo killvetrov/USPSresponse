@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackResponse>
+    <TrackInfo ID="9405803699300509900962">
+        <CarrierRelease>false</CarrierRelease>
+        <Class>Priority Mail&lt;SUP>&amp;reg;&lt;/SUP></Class>
+        <ClassOfMailCode>PM</ClassOfMailCode>
+        <DestinationCity>FOREST LAKE</DestinationCity>
+        <DestinationState>MN</DestinationState>
+        <DestinationZip>55025</DestinationZip>
+        <EmailEnabled>true</EmailEnabled>
+        <EnabledNotificationRequests>
+            <SMS>
+                <FD>true</FD>
+                <AL>true</AL>
+                <TD>true</TD>
+                <UP>true</UP>
+                <DND>true</DND>
+            </SMS>
+            <Email>
+                <FD>true</FD>
+                <AL>true</AL>
+                <TD>true</TD>
+                <UP>true</UP>
+                <DND>true</DND>
+            </Email>
+        </EnabledNotificationRequests>
+        <ItemShape>unknown</ItemShape>
+        <KahalaIndicator>false</KahalaIndicator>
+        <MailTypeCode>DM</MailTypeCode>
+        <MPDATE>2017-09-26 16:41:15.000000</MPDATE>
+        <MPSUFFIX>815072342</MPSUFFIX>
+        <OnTime>false</OnTime>
+        <OriginCity>OAKLAND</OriginCity>
+        <OriginState>CA</OriginState>
+        <OriginZip>94602</OriginZip>
+        <PodEnabled>false</PodEnabled>
+        <RedeliveryEnabled>false</RedeliveryEnabled>
+        <RestoreEnabled>false</RestoreEnabled>
+        <RramEnabled>false</RramEnabled>
+        <RreEnabled>false</RreEnabled>
+        <Service>Insured</Service>
+        <ServiceTypeCode>058</ServiceTypeCode>
+        <Status>Pre-Shipment Info Sent to USPS, USPS Awaiting Item</Status>
+        <StatusCategory>Pre-Shipment</StatusCategory>
+        <StatusSummary>The U.S. Postal Service was electronically notified by the shipper on September 26, 2017 to expect your package for mailing. This does not indicate receipt by the USPS or the actual mailing date. Delivery status information will be provided if/when available.</StatusSummary>
+        <TABLECODE>T</TABLECODE>
+        <TrackSummary>
+            <EventTime/>
+            <EventDate>September 26, 2017</EventDate>
+            <Event>Pre-Shipment Info Sent to USPS, USPS Awaiting Item</Event>
+            <EventCity/>
+            <EventState/>
+            <EventZIPCode/>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>MA</EventCode>
+            <EventStatusCategory>Pre-Shipment</EventStatusCategory>
+        </TrackSummary>
+    </TrackInfo>
+</TrackResponse>
