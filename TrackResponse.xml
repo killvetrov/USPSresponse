@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrackResponse>
     <TrackInfo ID="9405803699300509900962">
-        <CarrierRelease>false</CarrierRelease>
+        <CarrierRelease>true</CarrierRelease>
         <Class>Priority Mail&lt;SUP>&amp;reg;&lt;/SUP></Class>
         <ClassOfMailCode>PM</ClassOfMailCode>
         <DestinationCity>FOREST LAKE</DestinationCity>
@@ -24,7 +24,8 @@
                 <DND>true</DND>
             </Email>
         </EnabledNotificationRequests>
-        <ItemShape>unknown</ItemShape>
+        <ExpectedDeliveryDate>September 29, 2017</ExpectedDeliveryDate>
+        <ItemShape>parcel</ItemShape>
         <KahalaIndicator>false</KahalaIndicator>
         <MailTypeCode>DM</MailTypeCode>
         <MPDATE>2017-09-26 16:41:15.000000</MPDATE>
@@ -40,11 +41,53 @@
         <RreEnabled>false</RreEnabled>
         <Service>Insured</Service>
         <ServiceTypeCode>058</ServiceTypeCode>
-        <Status>Pre-Shipment Info Sent to USPS, USPS Awaiting Item</Status>
-        <StatusCategory>Pre-Shipment</StatusCategory>
-        <StatusSummary>The U.S. Postal Service was electronically notified by the shipper on September 26, 2017 to expect your package for mailing. This does not indicate receipt by the USPS or the actual mailing date. Delivery status information will be provided if/when available.</StatusSummary>
+        <Status>Departed USPS Regional Origin Facility</Status>
+        <StatusCategory>In Transit</StatusCategory>
+        <StatusSummary>Your item departed our OAKLAND CA DISTRIBUTION CENTER origin facility on September 27, 2017 at 11:36 pm. The item is currently in transit to the destination.</StatusSummary>
         <TABLECODE>T</TABLECODE>
         <TrackSummary>
+            <EventTime>11:36 pm</EventTime>
+            <EventDate>September 27, 2017</EventDate>
+            <Event>Departed USPS Regional Origin Facility</Event>
+            <EventCity>OAKLAND CA DISTRIBUTION CENTER</EventCity>
+            <EventState/>
+            <EventZIPCode/>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>10</EventCode>
+            <EventStatusCategory>In Transit</EventStatusCategory>
+        </TrackSummary>
+        <TrackDetail>
+            <EventTime>11:36 pm</EventTime>
+            <EventDate>September 27, 2017</EventDate>
+            <Event>Arrived at USPS Regional Origin Facility</Event>
+            <EventCity>OAKLAND CA DISTRIBUTION CENTER</EventCity>
+            <EventState/>
+            <EventZIPCode/>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>10</EventCode>
+            <EventStatusCategory>In Transit</EventStatusCategory>
+        </TrackDetail>
+        <TrackDetail>
+            <EventTime>4:37 pm</EventTime>
+            <EventDate>September 27, 2017</EventDate>
+            <Event>USPS picked up item</Event>
+            <EventCity>OAKLAND</EventCity>
+            <EventState>CA</EventState>
+            <EventZIPCode>94602</EventZIPCode>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>03</EventCode>
+            <EventStatusCategory>Accepted</EventStatusCategory>
+        </TrackDetail>
+        <TrackDetail>
             <EventTime/>
             <EventDate>September 26, 2017</EventDate>
             <Event>Pre-Shipment Info Sent to USPS, USPS Awaiting Item</Event>
@@ -57,6 +100,6 @@
             <AuthorizedAgent>false</AuthorizedAgent>
             <EventCode>MA</EventCode>
             <EventStatusCategory>Pre-Shipment</EventStatusCategory>
-        </TrackSummary>
+        </TrackDetail>
     </TrackInfo>
 </TrackResponse>
