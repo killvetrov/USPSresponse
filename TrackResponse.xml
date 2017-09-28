@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrackResponse>
     <TrackInfo ID="9405803699300509900962">
-        <CarrierRelease>true</CarrierRelease>
+        <CarrierRelease>false</CarrierRelease>
         <Class>Priority Mail&lt;SUP>&amp;reg;&lt;/SUP></Class>
         <ClassOfMailCode>PM</ClassOfMailCode>
         <DestinationCity>FOREST LAKE</DestinationCity>
@@ -41,11 +41,25 @@
         <RreEnabled>false</RreEnabled>
         <Service>Insured</Service>
         <ServiceTypeCode>058</ServiceTypeCode>
-        <Status>Departed USPS Regional Origin Facility</Status>
+        <Status>In Transit to Destination</Status>
         <StatusCategory>In Transit</StatusCategory>
-        <StatusSummary>Your item departed our OAKLAND CA DISTRIBUTION CENTER origin facility on September 27, 2017 at 11:36 pm. The item is currently in transit to the destination.</StatusSummary>
+        <StatusSummary>The item is currently in transit to the destination as of September 28, 2017 at 9:36 am. It is on its way to FOREST LAKE, MN 55025.</StatusSummary>
         <TABLECODE>T</TABLECODE>
         <TrackSummary>
+            <EventTime>9:36 am</EventTime>
+            <EventDate>September 28, 2017</EventDate>
+            <Event>In Transit to Destination</Event>
+            <EventCity>On its way to FOREST LAKE</EventCity>
+            <EventState>MN</EventState>
+            <EventZIPCode>55025</EventZIPCode>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>NT</EventCode>
+            <EventStatusCategory>In Transit</EventStatusCategory>
+        </TrackSummary>
+        <TrackDetail>
             <EventTime>11:36 pm</EventTime>
             <EventDate>September 27, 2017</EventDate>
             <Event>Departed USPS Regional Origin Facility</Event>
@@ -58,9 +72,9 @@
             <AuthorizedAgent>false</AuthorizedAgent>
             <EventCode>10</EventCode>
             <EventStatusCategory>In Transit</EventStatusCategory>
-        </TrackSummary>
+        </TrackDetail>
         <TrackDetail>
-            <EventTime>11:36 pm</EventTime>
+            <EventTime>11:35 pm</EventTime>
             <EventDate>September 27, 2017</EventDate>
             <Event>Arrived at USPS Regional Origin Facility</Event>
             <EventCity>OAKLAND CA DISTRIBUTION CENTER</EventCity>
