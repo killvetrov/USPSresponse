@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrackResponse>
     <TrackInfo ID="9405803699300509900962">
-        <CarrierRelease>false</CarrierRelease>
+        <CarrierRelease>true</CarrierRelease>
         <Class>Priority Mail&lt;SUP>&amp;reg;&lt;/SUP></Class>
         <ClassOfMailCode>PM</ClassOfMailCode>
         <DestinationCity>FOREST LAKE</DestinationCity>
@@ -41,11 +41,39 @@
         <RreEnabled>false</RreEnabled>
         <Service>Insured</Service>
         <ServiceTypeCode>058</ServiceTypeCode>
-        <Status>In Transit to Destination</Status>
+        <Status>Departed USPS Regional Facility</Status>
         <StatusCategory>In Transit</StatusCategory>
-        <StatusSummary>The item is currently in transit to the destination as of September 28, 2017 at 9:36 am. It is on its way to FOREST LAKE, MN 55025.</StatusSummary>
+        <StatusSummary>Your item departed our USPS facility in SAINT PAUL MN NETWORK DISTRIBUTION CENTER on September 29, 2017 at 3:36 am. The item is currently in transit to the destination.</StatusSummary>
         <TABLECODE>T</TABLECODE>
         <TrackSummary>
+            <EventTime>3:36 am</EventTime>
+            <EventDate>September 29, 2017</EventDate>
+            <Event>Departed USPS Regional Facility</Event>
+            <EventCity>SAINT PAUL MN NETWORK DISTRIBUTION CENTER</EventCity>
+            <EventState/>
+            <EventZIPCode/>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>L1</EventCode>
+            <EventStatusCategory>In Transit</EventStatusCategory>
+        </TrackSummary>
+        <TrackDetail>
+            <EventTime>1:16 am</EventTime>
+            <EventDate>September 29, 2017</EventDate>
+            <Event>Arrived at USPS Regional Destination Facility</Event>
+            <EventCity>SAINT PAUL MN NETWORK DISTRIBUTION CENTER</EventCity>
+            <EventState/>
+            <EventZIPCode/>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>10</EventCode>
+            <EventStatusCategory>In Transit</EventStatusCategory>
+        </TrackDetail>
+        <TrackDetail>
             <EventTime>9:36 am</EventTime>
             <EventDate>September 28, 2017</EventDate>
             <Event>In Transit to Destination</Event>
@@ -58,7 +86,7 @@
             <AuthorizedAgent>false</AuthorizedAgent>
             <EventCode>NT</EventCode>
             <EventStatusCategory>In Transit</EventStatusCategory>
-        </TrackSummary>
+        </TrackDetail>
         <TrackDetail>
             <EventTime>11:36 pm</EventTime>
             <EventDate>September 27, 2017</EventDate>
