@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrackResponse>
     <TrackInfo ID="9405803699300509900962">
-        <CarrierRelease>true</CarrierRelease>
+        <CarrierRelease>false</CarrierRelease>
         <Class>Priority Mail&lt;SUP>&amp;reg;&lt;/SUP></Class>
         <ClassOfMailCode>PM</ClassOfMailCode>
         <DestinationCity>FOREST LAKE</DestinationCity>
@@ -24,28 +24,85 @@
                 <DND>true</DND>
             </Email>
         </EnabledNotificationRequests>
-        <ExpectedDeliveryDate>September 29, 2017</ExpectedDeliveryDate>
         <ItemShape>parcel</ItemShape>
         <KahalaIndicator>false</KahalaIndicator>
         <MailTypeCode>DM</MailTypeCode>
         <MPDATE>2017-09-26 16:41:15.000000</MPDATE>
         <MPSUFFIX>815072342</MPSUFFIX>
-        <OnTime>false</OnTime>
+        <OnTime>true</OnTime>
         <OriginCity>OAKLAND</OriginCity>
         <OriginState>CA</OriginState>
         <OriginZip>94602</OriginZip>
         <PodEnabled>false</PodEnabled>
+        <PredictedDeliveryDate>September 29, 2017</PredictedDeliveryDate>
         <RedeliveryEnabled>false</RedeliveryEnabled>
         <RestoreEnabled>false</RestoreEnabled>
         <RramEnabled>false</RramEnabled>
         <RreEnabled>false</RreEnabled>
         <Service>Insured</Service>
         <ServiceTypeCode>058</ServiceTypeCode>
-        <Status>Departed USPS Regional Facility</Status>
-        <StatusCategory>In Transit</StatusCategory>
-        <StatusSummary>Your item departed our USPS facility in SAINT PAUL MN NETWORK DISTRIBUTION CENTER on September 29, 2017 at 3:36 am. The item is currently in transit to the destination.</StatusSummary>
+        <Status>Delivered, Front Door/Porch</Status>
+        <StatusCategory>Delivered</StatusCategory>
+        <StatusSummary>Your item was delivered at the front door or porch at 10:01 am on September 29, 2017 in FOREST LAKE, MN 55025.</StatusSummary>
         <TABLECODE>T</TABLECODE>
         <TrackSummary>
+            <EventTime>10:01 am</EventTime>
+            <EventDate>September 29, 2017</EventDate>
+            <Event>Delivered, Front Door/Porch</Event>
+            <EventCity>FOREST LAKE</EventCity>
+            <EventState>MN</EventState>
+            <EventZIPCode>55025</EventZIPCode>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>01</EventCode>
+            <DeliveryAttributeCode>02</DeliveryAttributeCode>
+            <EventStatusCategory>Delivered</EventStatusCategory>
+        </TrackSummary>
+        <TrackDetail>
+            <EventTime>8:49 am</EventTime>
+            <EventDate>September 29, 2017</EventDate>
+            <Event>Out for Delivery</Event>
+            <EventCity>FOREST LAKE</EventCity>
+            <EventState>MN</EventState>
+            <EventZIPCode>55025</EventZIPCode>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>OF</EventCode>
+            <EventStatusCategory>Out for Delivery</EventStatusCategory>
+        </TrackDetail>
+        <TrackDetail>
+            <EventTime>8:39 am</EventTime>
+            <EventDate>September 29, 2017</EventDate>
+            <Event>Sorting Complete</Event>
+            <EventCity>FOREST LAKE</EventCity>
+            <EventState>MN</EventState>
+            <EventZIPCode>55025</EventZIPCode>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>PC</EventCode>
+            <EventStatusCategory>In Transit</EventStatusCategory>
+        </TrackDetail>
+        <TrackDetail>
+            <EventTime>7:13 am</EventTime>
+            <EventDate>September 29, 2017</EventDate>
+            <Event>Arrived at Unit</Event>
+            <EventCity>FOREST LAKE</EventCity>
+            <EventState>MN</EventState>
+            <EventZIPCode>55025</EventZIPCode>
+            <EventCountry/>
+            <FirmName/>
+            <Name/>
+            <AuthorizedAgent>false</AuthorizedAgent>
+            <EventCode>07</EventCode>
+            <EventStatusCategory>In Transit</EventStatusCategory>
+        </TrackDetail>
+        <TrackDetail>
             <EventTime>3:36 am</EventTime>
             <EventDate>September 29, 2017</EventDate>
             <Event>Departed USPS Regional Facility</Event>
@@ -58,7 +115,7 @@
             <AuthorizedAgent>false</AuthorizedAgent>
             <EventCode>L1</EventCode>
             <EventStatusCategory>In Transit</EventStatusCategory>
-        </TrackSummary>
+        </TrackDetail>
         <TrackDetail>
             <EventTime>1:16 am</EventTime>
             <EventDate>September 29, 2017</EventDate>
